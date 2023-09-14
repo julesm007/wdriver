@@ -8,9 +8,10 @@ Julian Marks
 This is a simple WebDriver.io (Selenium WebDriver-based) framework that includes some sample test cases.
 
 ## How to run the tests
-OPTION 1: npx wdio run ./wdio.conf.js
-OPTION 2 (*NIX-only): ./run_all_tests.sh
-
+<UL>
+<LI>OPTION 1: npx wdio run ./wdio.conf.js</LI>
+<LI>OPTION 2 (*NIX-only): ./run_all_tests.sh</LI>
+</UL>
 The above command will run ALL tests within the .../test/specs folder. You can EXCLUDE tests by moving tests from the "specs" section to the "exclude" section like so:
 
 ```
